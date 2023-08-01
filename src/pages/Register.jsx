@@ -16,9 +16,9 @@ const Register = () => {
             <img src={Add} alt="avatar" />
             <span>Add an avatar</span>
           </label>
-          <button>Sign Up</button>
+          <button>Sign up</button>
         </form>
-        <p>Do you have an account?! Login</p>
+        <p>You do have an account?! Login</p>
       </div>
     </div>
   );
