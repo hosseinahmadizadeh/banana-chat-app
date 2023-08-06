@@ -1,11 +1,16 @@
 import React from "react";
+
+import Logo from "../images/logo/butternut-squash.png";
 import Add from "../images/avatar/person.png";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="header">
-        <span className="logo">Squash Chat</span>
+        <div className="title">
+          <img src={Logo} alt="logo" />
+          <span className="appName">Squash</span>
+        </div>
         <button>Log out</button>
       </div>
       <div className="user">
